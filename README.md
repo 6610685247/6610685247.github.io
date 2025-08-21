@@ -1,1 +1,9 @@
-# 6610685247.github.io
+# Punnawat Namkum (Pun)
+## Computer Engineering
+
+### Hobbies / Interest
+- Calisthenics
+- Listening to music
+
+### Contact
+- Instragram : punny_nk
