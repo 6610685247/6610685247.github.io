@@ -1,26 +1,26 @@
-.bg {
-    background-size:cover;
-    position: relative;
-    color: black;
+body {
+    background: linear-gradient(45deg, rgb(210, 224, 251) 0%, rgb(254, 249, 217) 50%, rgb(210, 224, 251) 100%);
+    background-size: cover;
 }
 
 .Name {
+    color: rgb(107, 108, 166);
+    font-size: 55px;
     font-weight: bolder;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: ease-in-out;
 }
 
-h1 {
-    font-size: 55px;
-}
-
-h2 {
+.frame h2 {
+    color: rgb(107, 108, 166);
     font-size: 35px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h3 {
-    font-size: 20px;
-    font-weight: bold;
+h3:hover {
+    transform: scale(1.05);
 }
 
 body {
@@ -29,23 +29,25 @@ body {
 
 .frame {
     border-radius: 10px;
-    border-color:#5f9ea0;
+    border-color: rgb(197, 153, 182);
     border-style:solid;
     padding: 20px;
-    background: rgba(95, 158, 160, 0.5);
+    background: rgba(230, 178, 186,0.5);
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height:100%;
 }
 
-.picture {
-    width: 100px;
+.frame:hover {
+    transform: scale(1.05);
+    background: rgba(192, 201, 238,0.7);
 }
 
-.frame h2 {
-    color: blue;
-    font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.myPic {
+    border-radius: 10px;
+    scale: 0.95;
+    height: 260px;
+    object-fit: cover;
 }
 
 .sub_text {
@@ -56,12 +58,23 @@ body {
     text-indent: 20px;
 }
 
-.link {
+.tab {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sc_link {
     text-decoration: none;   
-    color: #a92f58;          
+    color: rgb(137, 138, 196);          
     font-weight: bold;       
     font-size: 20px;  
     
+}
+
+.edu_link {
+    text-decoration: none;   
+    color: rgb(137, 138, 196);
+    font-weight: bold; 
 }
 
 .Icon {
